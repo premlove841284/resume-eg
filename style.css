@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:poppins;
+}
+
+.resume{
+    display:grid;
+    grid-template-columns: 300px auto;
+    max-width: 800px;
+    box-shadow: 0px 0px 3px 1px lightgray;
+    margin: auto ;
+    padding:20px;
+    border:2px solid gray;
+    column-gap: 50px;
+
+}
+
+.top-left {
+    background-color: #5271ff;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding:20px;
+    
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    overflow: hidden;
+}
+
+.name,
+title {
+    font-weight: bold;
+    color:white;
+}
+
+.line-left{
+    height: 2px;
+    background-color: white;
+}
+
+.line-right{
+    height:2px;
+    background-color: black;
+}
+
+
+
+.git,
+.lin{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;  
+}
+
+.link {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+
+}
+
+.buttom-left {
+    background-color: #3c4240;
+    color: white;
+    padding: 20px 40px 20px 40px;
+}
+
+.certificate,
+.skill,
+.contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-list,
+.skill-list,
+.certificate-list {
+    list-style: none;
+    padding-left:20px;
+    padding-top:20px;
+}
+
+.skill progress{
+    height:10px;
+}
+
+
+
+/* .contact-heading,
+.skill-heading,
+.certificate-heading{
+    display:flex;
+    gap:20px;
+
+} */
+
+.contact-value{
+    color: gray;
+    
+}
+
+.right-div{
+    grid-column: 2/3;
+    grid-row:1/3;
+    padding-right: 20px;
+}
+
+.objective-heading,
+.experience-heading,
+.project-heading,
+.education-heading {
+  color: #5271ff;
+}
+
+.right-div p {
+    padding-top: 10px;
+}
+
+.experience-heading,
+.project-heading,
+.education-heading {
+  padding-top: 20px;
+}
+
+.right-div li {
+    padding-left: 40px;
+}
+
+.role-date{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.work-ex-list{
+    list-style: none;
+}
+
+ .right-div li a::before {
+    content: "<i class="fa-solid fa-circle-arrow-right"></i>";
+}
+
+.right-div i{
+    position: absolute;
+    right: 635px;
+    margin-top: 7px;
+    }
+
+
+
+
